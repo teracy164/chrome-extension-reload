@@ -1,0 +1,16 @@
+{
+    "name": "Auto Reloader",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "auto reload per 15 sec.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*f=live"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
